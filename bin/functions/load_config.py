@@ -605,11 +605,11 @@ def generate_optional_value():
 
     probe_java_bin()
     probe_hadoop_release()
-    probe_hadoop_examples_jars()
-    probe_hadoop_examples_test_jars()
-    probe_sleep_job_jar()
-    probe_hadoop_configure_dir()
-    probe_mapper_reducer_names()
+    #probe_hadoop_examples_jars()
+    #probe_hadoop_examples_test_jars()
+    #probe_sleep_job_jar()
+    #probe_hadoop_configure_dir()
+    #probe_mapper_reducer_names()
     probe_masters_slaves_hostnames()
     probe_java_opts()
 
