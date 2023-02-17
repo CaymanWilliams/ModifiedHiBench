@@ -610,8 +610,8 @@ def generate_optional_value():
     #probe_sleep_job_jar()
     #probe_hadoop_configure_dir()
     #probe_mapper_reducer_names()
-    probe_masters_slaves_hostnames()
-    probe_java_opts()
+    #probe_masters_slaves_hostnames()
+    #probe_java_opts()
 
 
 def export_config(workload_name, framework_name):
